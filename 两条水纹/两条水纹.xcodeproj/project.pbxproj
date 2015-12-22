@@ -13,6 +13,7 @@
 		34397F281C29A08900944C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34397F261C29A08900944C70 /* Main.storyboard */; };
 		34397F2A1C29A08900944C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34397F291C29A08900944C70 /* Assets.xcassets */; };
 		34397F2D1C29A08900944C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34397F2B1C29A08900944C70 /* LaunchScreen.storyboard */; };
+		34397F391C29A1E300944C70 /* LXHTwoWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34397F381C29A1E300944C70 /* LXHTwoWaterWaveView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		34397F291C29A08900944C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34397F2C1C29A08900944C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34397F2E1C29A08900944C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34397F371C29A1E300944C70 /* LXHTwoWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXHTwoWaterWaveView.h; path = ../LXHTwoWaterWaveView.h; sourceTree = "<group>"; };
+		34397F381C29A1E300944C70 /* LXHTwoWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXHTwoWaterWaveView.m; path = ../LXHTwoWaterWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		34397F1C1C29A08900944C70 /* 两条水纹 */ = {
 			isa = PBXGroup;
 			children = (
+				34397F371C29A1E300944C70 /* LXHTwoWaterWaveView.h */,
+				34397F381C29A1E300944C70 /* LXHTwoWaterWaveView.m */,
 				34397F201C29A08900944C70 /* AppDelegate.h */,
 				34397F211C29A08900944C70 /* AppDelegate.m */,
 				34397F231C29A08900944C70 /* ViewController.h */,
@@ -152,6 +157,7 @@
 			files = (
 				34397F251C29A08900944C70 /* ViewController.m in Sources */,
 				34397F221C29A08900944C70 /* AppDelegate.m in Sources */,
+				34397F391C29A1E300944C70 /* LXHTwoWaterWaveView.m in Sources */,
 				34397F1F1C29A08900944C70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

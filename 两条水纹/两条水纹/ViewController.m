@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LXHTwoWaterWaveView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    LXHTwoWaterWaveView *waterView = [[LXHTwoWaterWaveView alloc]initWithFrame:self.view.bounds];
+    
+    [self.view addSubview:waterView];
 }
 
 - (void)didReceiveMemoryWarning {
